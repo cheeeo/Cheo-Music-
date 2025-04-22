@@ -1,0 +1,55 @@
+/* explorar.css */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .intro {
+    margin-bottom: 40px;
+  }
+  
+  .intro h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .intro p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .artists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  
+  .artist {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
+  .artist h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .artist img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .artist p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
